@@ -83,7 +83,7 @@ function Passaro(alturaJogo){
     let voando = false
 
     this.elemento = novoElemento('img', 'passaro')
-    this.elemento.src = '../imgs/plane.png'
+    this.elemento.src = 'https://raw.githubusercontent.com/jorgeluis-dev/Aviator_game/main/imgs/plane.png'
 
     this.getY = () => parseInt(this.elemento.style.bottom.split('px')[0])
     this.setY = y => this.elemento.style.bottom = `${y}px`
